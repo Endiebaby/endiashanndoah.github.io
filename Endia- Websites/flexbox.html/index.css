@@ -1,0 +1,14 @@
+.container {
+  border: 10px line white;
+  display: flex;
+
+.Contact {
+  margin-left: auto;
+  order:1;
+}
+.Index {
+  margin-left: auto;
+  flex: 1;
+}
+
+#home{color:white}

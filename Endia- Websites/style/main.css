@@ -1,0 +1,55 @@
+#title{text-align: center;}
+#title{background-color: white;}
+#title{border-style:thick;}
+#title{ border-style: solid;  border-color: black;}
+#para1{text-align: center;}
+#para1{color: white;}
+#para2{color: white;}
+#para2{text-align: center;}
+#para3{color: white;}
+#para3{text-align: center;}
+#head1{background-color: black;}
+#head1{color:white;}
+#head1{text-align: center;}
+#head2{background-color: black;}
+#head3{background-color: black;}
+#head4{background-color: black;}
+#list1{color: white;}
+#list1{font-weight: bold;}
+#list1{text-align: left;}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 1px;
+  text-align: center;
+  justify-content: space-around;
+}
+.navbar >li{
+  font-size: 20px;
+  padding: 1px;
+  text-align: center;
+  border: 2px solid black;
+  flex: 1;
+}
+.navbar >li:hover{
+  background-color:  #ef2680;
+}
+
+li a{
+text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.navbar {
+  background-color: black;
+  color: white;
+}
+.a:before {
+  color:white;
+}
+a:visited {
+  color:white;
+}
